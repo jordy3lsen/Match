@@ -126,7 +126,7 @@ Copy code
 Match is distributed via an official downloader.
 
 1. Go to the **Releases** page:
-   https://github.com/YOUR_USERNAME/YOUR_REPO/releases
+   https://github.com/jordy3lsen/match/releases
 
 2. Download:
    **MatchDownloader.exe**
