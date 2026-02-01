@@ -160,7 +160,7 @@ Source code is fully inspectable.
 
 ### Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/jordy3lsen/match.git
 cd Match
 pip install -r requirements.txt
 python main.py
