@@ -138,7 +138,7 @@ Releases.
 ## 🛠️ Build From Source (Developers)
 
 ```bash
-git clone https://github.com/jordy3lsen/match.git
+https://github.com/jordy3lsen/match.git
 cd Match
 pip install -r requirements.txt
 python main.py
