@@ -5,7 +5,7 @@ matches music playlists to your local audio library using advanced fuzzy
 matching and version-aware scoring.
 
 It is designed for DJs, music collectors, and power users who work with
-large music libraries and broken or incomplete playlists.
+large music libraries, broken playlists, or exported streaming playlists.
 
 ---
 
@@ -18,10 +18,11 @@ large music libraries and broken or incomplete playlists.
 - Duplicate prevention
 - Fast indexed scanning for large libraries
 
-### Playlist Formats
-- M3U / M3U8 (Extended playlists)
-- CSV
-- XSPF (XML Shareable Playlist Format)
+### Playlist & Streaming Support
+- Import playlists exported from streaming platforms
+  (Spotify, Apple Music, YouTube Music, etc.)
+- Rebuild streaming playlists using local audio files
+- Supports M3U / M3U8 / CSV / XSPF formats
 
 ### Interface
 - Clean PySide6 (Qt6) GUI
@@ -43,9 +44,6 @@ Each playlist track is processed through the following pipeline:
 
 Normalize → Exact Match → Token Match → Fuzzy Match → Score → Threshold
 
-markdown
-Copy code
-
 ### Text Normalization
 - Lowercasing
 - Removal of brackets and parentheses
@@ -55,9 +53,6 @@ Copy code
 Example:
 "Track Name (Radio Edit) - 2023"
 → "track name radio edit 2023"
-
-yaml
-Copy code
 
 ### Version Scoring
 
@@ -89,8 +84,8 @@ Match uses a two-level indexing system:
 - **Token Index**  
   `word → track list`
 
-This drastically reduces comparison cost and allows fast matching even
-with thousands of audio files.
+This allows fast matching of large music libraries and exported streaming
+playlists.
 
 ---
 
@@ -109,16 +104,6 @@ Filesystem / Network
 yaml
 Copy code
 
-### Main Directories
-
-| Folder | Purpose |
-|------|--------|
-| `ui_qt/` | GUI components |
-| `controller/` | Workflow & threading |
-| `engine/` | Matching logic |
-| `licensing/` | License & update handling |
-| `assets/` | Icons and resources |
-
 ---
 
 ## 📥 Download & Installation (Recommended)
@@ -129,7 +114,7 @@ Match is distributed via an official downloader.
    https://github.com/jordy3lsen/match/releases
 
 2. Download:
-   **MatchDownloader.exe**
+   **Match_Installer.exe**
 
 3. Run the downloader and follow the instructions
 
@@ -146,89 +131,32 @@ The downloader automatically fetches the latest installer and updates.
 - No hidden installers
 
 All binaries are built from this repository and published via GitHub
-Releases.  
-Source code is fully inspectable.
+Releases.
 
 ---
 
 ## 🛠️ Build From Source (Developers)
 
-### Requirements
-- Windows 10/11
-- Python 3.9+
-- Git
-
-### Setup
 ```bash
 git clone https://github.com/jordy3lsen/match.git
 cd Match
 pip install -r requirements.txt
 python main.py
 ⚙️ Configuration
-Settings are stored at:
+Settings location:
 
-shell
-Copy code
 %APPDATA%\Match\settings.json
-Example:
-
-json
-Copy code
-{
-  "songs_folder": "D:/Music/Library",
-  "playlist_input": "D:/Music/Playlists/Input",
-  "playlist_output": "D:/Music/Playlists/Output",
-  "playlist_type": "m3u8",
-  "check_updates": true
-}
 🔒 Licensing
-Match uses a device-bound licensing system:
-
-Machine fingerprinting
-
-Local license storage
-
-Server-side verification
-
-License file location:
-
-shell
-Copy code
-%APPDATA%\Match\license.json
-🐞 Known Limitations
-Limited UI error reporting
-
-Manual thread management
-
-No automated test suite (yet)
+Device-bound licensing system with local verification.
 
 🤝 Contributing
-Contributions are welcome.
-
-Fork the repository
-
-Create a feature branch
-
-Commit your changes
-
-Open a Pull Request
-
-Please follow PEP8 conventions.
+Pull requests and feature suggestions are welcome.
 
 📄 License
 MIT License
-See LICENSE for details.
 
 👤 Author
 Developed by Jordy Elsen
 
 ⭐ Support
-If you find Match useful:
-
-Star the repository
-
-Report bugs
-
-Suggest features
-
-Share with others
+Star the repo, report bugs, and share feedback.
