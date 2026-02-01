@@ -122,13 +122,15 @@ The downloader automatically fetches the latest installer and updates.
 
 ---
 
-🔒 Licensing
-Device-bound licensing system with local verification.
+## 🔒 Licensing
 
-🤝 Contributing
-Pull requests and feature suggestions are welcome.
+Match uses a device-bound licensing system with local verification.
+Each license is tied to a specific machine.
 
-📄 License
+---
+
+## 📄 License
+
 This software is proprietary.
 
 All rights are reserved by the author.
@@ -136,8 +138,18 @@ Unauthorized copying, modification, or redistribution is prohibited.
 
 See the `LICENSE` file for details.
 
-👤 Author
-Developed by Jordy Elsen
+---
 
-⭐ Support
-Star the repo, report bugs, and share feedback.
+## 👤 Author
+
+Developed by **Jordy Elsen**
+
+---
+
+## ⭐ Support
+
+If you find Match useful:
+
+- Star the repository
+- Report bugs
+- Share feedback
