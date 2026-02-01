@@ -122,30 +122,6 @@ The downloader automatically fetches the latest installer and updates.
 
 ---
 
-## 🔐 Security & Safety
-
-- No bundled adware
-- No telemetry
-- No data collection
-- No crypto-miners
-- No hidden installers
-
-All binaries are built from this repository and published via GitHub
-Releases.
-
----
-
-## 🛠️ Build From Source (Developers)
-
-```bash
-https://github.com/jordy3lsen/match.git
-cd Match
-pip install -r requirements.txt
-python main.py
-⚙️ Configuration
-Settings location:
-
-%APPDATA%\Match\settings.json
 🔒 Licensing
 Device-bound licensing system with local verification.
 
@@ -153,7 +129,12 @@ Device-bound licensing system with local verification.
 Pull requests and feature suggestions are welcome.
 
 📄 License
-MIT License
+This software is proprietary.
+
+All rights are reserved by the author.
+Unauthorized copying, modification, or redistribution is prohibited.
+
+See the `LICENSE` file for details.
 
 👤 Author
 Developed by Jordy Elsen
