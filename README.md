@@ -105,9 +105,6 @@ Engine
 ↓
 Filesystem / Network
 
-yaml
-Copy code
-
 ---
 
 ## 📥 Download & Installation (Recommended)
