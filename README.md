@@ -1,4 +1,3 @@
-<img width="3071" height="1919" alt="Screenshot 2026-02-02 201719" src="https://github.com/user-attachments/assets/5d2f18b0-dae6-4263-aa78-441d099de491" />
 # 🎵 Match – Intelligent Playlist Matcher for Windows
 
 Match is a professional Windows desktop application that automatically
@@ -7,6 +6,10 @@ matching and version-aware scoring.
 
 It is designed for DJs, music collectors, and power users who work with
 large music libraries, broken playlists, or exported streaming playlists.
+
+---
+
+<img width="3071" height="1919" alt="Screenshot 2026-02-02 203031" src="https://github.com/user-attachments/assets/e507b121-50bc-4fcb-a4dd-0eb4dcc49757" />
 
 ---
 
