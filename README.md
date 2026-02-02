@@ -107,7 +107,7 @@ Filesystem / Network
 
 ---
 
-## 📥 Download & Installation (Recommended)
+## 📥 Download & Installation
 
 Match is distributed via an official downloader.
 
