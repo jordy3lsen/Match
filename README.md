@@ -121,6 +121,8 @@ Match is distributed via an official downloader.
 
 The downloader automatically fetches the latest installer and updates.
 
+4. Donate or submit email for premium features:
+https://match.lemonsqueezy.com/
 ---
 
 ## 🔒 Licensing
