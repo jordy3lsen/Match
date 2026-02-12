@@ -1,3 +1,5 @@
+Download: https://github.com/jordy3lsen/Match/releases/download/Match/Match_Installer.exe More features: https://match.lemonsqueezy.com/
+
 # 🎵 Match – Intelligent Playlist Matcher for Windows
 
 Match is a professional Windows desktop application that automatically
