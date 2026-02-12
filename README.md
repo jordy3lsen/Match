@@ -1,5 +1,8 @@
 Download: https://github.com/jordy3lsen/Match/releases/download/Match/Match_Installer.exe
+
 More features (Unmatched playlist): https://match.lemonsqueezy.com/
+
+---
 
 # 🎵 Match – Intelligent Playlist Matcher for Windows
 
